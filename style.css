@@ -1,0 +1,34 @@
+
+Currently editing:
+/home1/fivzesg8/public_html/realtor/wp-content/themes/503designChildTheme/style.css
+ Encoding:    Reopen  Switch to Code Editor     Close  Save
+
+@import url("../Divi/style.css");
+/*
+Theme Name: Divi-child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Description: Child theme for the Divi theme
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Template: Divi
+Version: 1.0.0
+*/
+
+.et_fixed_nav #logo  {
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+#footer-bottom {
+display: none;
+}
+
+/*-------Removes White Bar Under Post Footer-------*/
+  .single .post {
+    padding-bottom: 0;
+}
+
+  #left-area {
+    padding-bottom: 0;
+}
